@@ -172,12 +172,12 @@ function checkWinner() {
       document.getElementById("start").innerHTML = "Reset & Start";
       return;
     }
-    if (cellCount == 9) {
-      document.querySelector(".winner").innerHTML = "Draw";
-      document.querySelector(".winner").style.backgroundColor = "goldenrod";
-      clearInterval(timerInterval);
-      document.getElementById("start").innerHTML = "Reset & Start";
-      return;
-    }
+    // if (cellCount == 9 && win!=1 && win!=2) {
+    //   document.querySelector(".winner").innerHTML = "Draw";
+    //   document.querySelector(".winner").style.backgroundColor = "goldenrod";
+    //   clearInterval(timerInterval);
+    //   document.getElementById("start").innerHTML = "Reset & Start";
+    //   return;
+    // }
   }
 }
