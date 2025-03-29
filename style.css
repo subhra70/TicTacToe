@@ -7,6 +7,7 @@
 }
 
 body {
+  margin-top: 20px;
   background-color: rgb(9, 9, 54);
   color: white;
   display: flex;
